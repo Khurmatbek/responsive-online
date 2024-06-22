@@ -51,8 +51,60 @@ body {
     list-style: none;
 }
 
-/* .nav__item {}
 
-.nav__link {}
 
-.header__phone-link {} */
+.nav__link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__phone-link {
+    color: #333;
+    /* phone */
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*  first section style part */
+.cvartire-move {}
+
+/* .move {
+
+} */
+
+.move__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.move__item {
+    
+}
+
+.move__title {}
+
+.move__desc {}
+
+.move__link-box {}
+
+.move__link {}
+
+.move__decoration-box {}
+
+.decoration {}
+
+.decoration__title {}
