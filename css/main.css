@@ -16,6 +16,19 @@ body {
     padding: 0 20px;
 }
 
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero {
+    position: relative;
+    background-color: #FED100;
+
+}
+
 .header {
     padding: 40px 0 63px 0;
 }
@@ -75,36 +88,119 @@ body {
 }
 
 /*  first section style part */
-.cvartire-move {}
 
-/* .move {
 
-} */
+.move {
+    padding-bottom: 87px;
+}
 
 .move__list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
 
-.move__item {
-    
+.move__item:first-child {
+    width: 550px;
 }
 
-.move__title {}
+.move__item:last-child {
+    width: 100%;
+    height: 426px;
+    background-image: url("../images/auto.png");
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: center  right;
+}
 
-.move__desc {}
+.move__item img {
+    position: absolute;
+    top: calc(50% - 281px);
+    left: calc(50% - 90px);
+}
 
-.move__link-box {}
+.move__title {
+    margin: 0;
+    margin-bottom: 6px;
+    color: #333;
+    /* Main Title */
+    font-family: "Montserrat";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75.83px;
+    /*  */
+}
 
-.move__link {}
+.move__desc {
+    display: block;
+    margin-bottom: 50px;
+    color: #333;
+    /* Title */
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
-.move__decoration-box {}
+.move__link-box {
+    display: inline-block;
+    margin-bottom: 66px;
 
-.decoration {}
+    width: 304px;
+    padding: 16px;
+    background-color: #FF352B;
+    text-align: center;
 
-.decoration__title {}
+}
+
+.move__link {
+    color: #F2F2F2;
+    text-decoration: none;
+    /* Button text */
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.move__decoration-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.decoration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    /* text */
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.4%;
+    /* 21.024px */
+}
+
+.decoration__title {
+    margin: 0;
+    color: #333;
+    /* text */
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.4%;
+    /* 21.024px */
+}
